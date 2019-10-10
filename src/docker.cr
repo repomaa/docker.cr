@@ -18,7 +18,7 @@ module Docker
   end
 
   # Call this method to only setup signal handlers for `SIGINT` and `SIGTERM`
-  def setup_signal_handling
+  def self.setup_signal_handling
     Signal::INT.trap { @@int_handler.call }
     Signal::TERM.trap { @@term_handler.call }
   end
