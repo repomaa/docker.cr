@@ -8,6 +8,7 @@ module Docker
   # as well as handlers for `SIGINT` and `SIGTERM`
   def self.setup
     setup_io_syncing
+    setup_signal_handling
   end
 
   # Call this method to only setup syncing of `STDOUT` and `STDERR`
