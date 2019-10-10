@@ -1,0 +1,9 @@
+name: docker
+version: 0.1.0
+
+authors:
+  - Joakim Repomaa <mail@j.repomaa.com>
+
+crystal: 0.31.1
+
+license: MIT
