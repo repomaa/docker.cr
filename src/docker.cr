@@ -1,5 +1,5 @@
 module Docker
-  VERSION = "0.1.0"
+  VERSION = "0.1.1"
 
   @@int_handler : -> Void = ->{ exit }
   @@term_handler : -> Void = ->{ exit }
